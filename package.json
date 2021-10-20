@@ -1,11 +1,27 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Actions Status](https://github.com/MishinS/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/MishinS/frontend-project-lvl1/actions)",
   "main": "index.js",
+  "bin": {
+    "code": "brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MishinS/frontend-project-lvl1.git"
+  },
+  "author": "Sergei Mishin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MishinS/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/MishinS/frontend-project-lvl1#readme"
 }
+
+  
+
