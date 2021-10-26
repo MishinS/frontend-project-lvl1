@@ -22,9 +22,9 @@ jobs:
       - name: npm install
         run: |
           make install
-	- env:
+      - env:
 	  CI: true
-	- name: Run linter
+      - name: Run linter
 	#Run Linter
-	- run: |
+      - run: |
 	  make lint
