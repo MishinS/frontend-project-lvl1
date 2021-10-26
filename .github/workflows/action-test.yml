@@ -22,8 +22,17 @@ jobs:
       - name: npm install
         run: |
           make install
+<<<<<<< HEAD:.github/workflows/action-test.yml
         env:
           CI: true  
       - name: Run Linter
         run: |
           make lint
+=======
+      - env:
+	  CI: true
+      - name: Run linter
+	#Run Linter
+      - run: |
+	  make lint
+>>>>>>> 06519e2b5c824598f1351c086f4d31a6702b6db1:workflows/main.yml
