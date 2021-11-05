@@ -7,8 +7,10 @@
   "bin": {
     "code": "brain-games.js",
     "code": "brain-even.js",
+    "code": "brain-calc.js",
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
