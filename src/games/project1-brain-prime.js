@@ -7,17 +7,16 @@ const getRandomInt = (min, max) => {
   return Math.abs(random);
 };
 
-const randomNum = getRandomInt(4, 20);
-const isFilter = (randomNum) => {    
+const isFilter = (randomNum) => {
   if (randomNum < 2) {
     return false;
   }
   for (let i = 2; i < randomNum; i += 1) {
     if (randomNum % i === 0) {
-      return false;  
+      return false;
     }
   }
-  return true;   
+  return true;
 };
 
 const generateGame = () => {
