@@ -21,8 +21,8 @@ const getRandomArr = () => {
 
 // Функция возвращает результат операции со случайным оператором
 const getCalc = () => {
-  const randomNum1 = getRandomInt(1000);
-  const randomNum2 = getRandomInt(1000);
+  const randomNum1 = getRandomInt(100);
+  const randomNum2 = getRandomInt(100);
   const randomOperator = getRandomArr(arrOperator);
   const question = (randomNum1 + randomOperator + randomNum2);
   const calc = (eval(randomNum1 + randomOperator + randomNum2));
