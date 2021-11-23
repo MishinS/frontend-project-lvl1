@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-import defaultExport from '../src/cli.js';
+import welcomeUser from '../src/cli.js';
+
+console.log('Welcom to the Brain Games!');
+welcomeUser();

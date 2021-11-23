@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/MishinS/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/MishinS/frontend-project-lvl1/actions)",
   "main": "index.js",
-  "bin": {
-    "code": "brain-games.js",
-    "code": "brain-even.js",
-    "code": "brain-calc.js",    
+  "bin": {        
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",

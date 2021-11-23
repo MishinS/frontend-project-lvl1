@@ -10,11 +10,13 @@ const isRules = 'What is the result of the expression?';
 const arrOperator = ['*', '+', '-'];
 
 // Функция возвращает случайного оператора
+let result = '';
 const getRandomArr = () => {
-  for (const item of arrOperator) {
+  for (let i = 0; i < arrOperator.length; i += 1) {
     const randomArr = getRandomInt(3);
-    return arrOperator[randomArr];
+    result = arrOperator[randomArr];
   }
+  return result;
 };
 
 // Функция возвращает результат операции со случайным оператором
