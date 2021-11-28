@@ -29,7 +29,7 @@
  <li>Second step: run make install in your terminal.</li>
 </ul>
 
-<p><b>Example of works</b></p>
+<p><b>Example of works:</b></p>
 <b>Brain-even</b>
 
 <p><a href="https://asciinema.org/a/8YOs4xVobaFTsslsLR8QEp7jB" target="_blank"><img src="https://asciinema.org/a/8YOs4xVobaFTsslsLR8QEp7jB.svg" /></a></p>
